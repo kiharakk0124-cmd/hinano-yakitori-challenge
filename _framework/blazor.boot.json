@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "HinanonYakitoriGame.dll": "sha256-BR5zhq0U2pXNfraSFcBQviCwfr19rNIcpi7FjoK6KZA=",
+      "HinanonYakitoriGame.dll": "sha256-+UeRW8depd0PBYBDMBFc3YTbE4UbEGpVRZcK6LNydqA=",
       "Microsoft.AspNetCore.Components.dll": "sha256-D+COpoP3sTHE5zFoOqNfJjrtpunqnUK8EelR0IwxmuQ=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-jSEc6w1lUN8bup\/iXTVCIBk1vB+bHUZ\/WLq59QvXE1g=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-VoOExk2fEE249K3Jayw1Nymq9Bc8LlKEWiOG9\/0GiNY=",
