@@ -1,27 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="ja">
 
 <head>
-    <link href="style.css" rel="stylesheet" />
-    <meta charset="utf-8" />
-    <title>HinanonYakitoriGame</title>
-    <base href="/hinano-yakitori-challenge/" />
-    <link href="css/app.css" rel="stylesheet" />
 
-    <!-- If you add any scoped CSS files, uncomment the following to load them
-    <link href="HinanonYakitoriGame.styles.css" rel="stylesheet" /> -->
+    <meta charset="utf-8" />
+
+    <title>ひなのん焼き鳥チャレンジ</title>
+
+    <!-- index.html -->
+    <base href="/hinano-yakitori-challenge/" />
+
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- index.html の <head> 内に追加 -->
+    <meta name="keywords" content="ひなのん焼き鳥チャレンジ, ひなのん, 焼き鳥, ゲーム, Blazor" />
+    <meta name="description" content="ひなのんに好きな焼き鳥を届けて遊ぶファンゲーム「ひなのん焼き鳥チャレンジ」です。" />
+
+    <meta name="google-site-verification" content="..." />
+
 </head>
 
 <body>
-    <div id="app">Loading...</div>
+
+    <div id="app">
+        Loading...
+    </div>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-    <script src="game.js"></script>
-    <script src="_framework/blazor.webassembly.js"></script>
+
+    <script src="./_framework/blazor.webassembly.js"></script>
+    <script src="./game.js"></script>
+
 </body>
 
 </html>
